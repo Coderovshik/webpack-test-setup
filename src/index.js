@@ -1,4 +1,7 @@
-const _ = require('lodash');
+import _ from 'lodash';
+
+// styles
+import './styles/index.css';
 
 function component() {
     const div = document.createElement('div');
